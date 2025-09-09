@@ -32,7 +32,7 @@ const Index = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="John Niyontwali - Senior Full-Stack Developer | React, Node.js, Python Expert" />
         <meta property="og:description" content="Senior Full-Stack Developer with 8+ years experience building scalable applications across healthcare, fintech, and enterprise sectors. Expert in React, Node.js, Python, and cloud technologies." />
-        <meta property="og:url" content="https://yourportfolio.com" />
+        <meta property="og:url" content="https://nijohn.vercel.app/" />
         <meta property="og:site_name" content="John Niyontwali Portfolio" />
 
         {/* Twitter */}
@@ -43,7 +43,7 @@ const Index = () => {
         {/* Additional SEO */}
         <meta name="geo.region" content="RW-01" />
         <meta name="geo.placename" content="Kigali, Rwanda" />
-        <link rel="canonical" href="https://yourportfolio.com" />
+        <link rel="canonical" href="https://nijohn.vercel.app/" />
 
         {/* Structured Data */}
         <script
@@ -55,7 +55,7 @@ const Index = () => {
               "name": "John Niyontwali",
               "jobTitle": "Senior Full-Stack Developer",
               "description": "Senior Full-Stack Developer with 8+ years of experience in JavaScript, Python, and cloud technologies",
-              "url": "https://yourportfolio.com",
+              "url": "https://nijohn.vercel.app/",
               "email": "nijohn0001@gmail.com",
               "telephone": "+250786266073",
               "address": {
