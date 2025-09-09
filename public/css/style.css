@@ -1565,7 +1565,7 @@ header .mobile-menu {
 }
 
 .blog .latestposts a:hover img {
-  transform: scale(1.2);
+  transform: scale(1.03);
 }
 
 .blog .latestposts a .content {
@@ -1725,7 +1725,7 @@ header .mobile-menu {
 }
 
 .blog-page .blog-content .post a:hover img {
-  transform: scale(1.2);
+  transform: scale(1.03);
 }
 
 .blog-page .blog-content .post a .content {

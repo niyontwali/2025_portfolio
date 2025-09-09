@@ -1,10 +1,11 @@
+import { blogs } from '@/src/constants';
 import Link from 'next/link';
+
 const Blog = () => {
   return (
     <section className='blog main-section flex-column-mobile' id='blog'>
-      {/* TITLE STARTS */}
+      {/* TITLE */}
       <div className='custom-title'>
-        {/* MAIN TITLE STARTS */}
         <h3>
           <span>
             <span className='animated-layer fade-in-left-animation fadeInUp wow'>
@@ -12,70 +13,40 @@ const Blog = () => {
             </span>
           </span>
         </h3>
-        {/* MAIN TITLE ENDS */}
       </div>
-      {/* TITLE ENDS */}
-      {/* LATEST POSTS STARTS */}
+
+      {/* LATEST POSTS */}
       <div className='latestposts flex-column-mobile'>
-        {/* POST ITEM STARTS */}
-        <div className='animated-layer fade-in-right-animation fadeInUp wow'>
-          <Link href='/blog-post'>
-            <span className='img-holder'>
-              <img src='assets/blog/blog-post-1.png' alt='' />
-            </span>
-            <div className='content'>
-              <span className='category'>Web Dev</span>
-              <span className='title'>Getting started with Next.Js</span>
-              <p>
-                Nextjs is a React fronted development web framework which
-                enables functionality such as server-side rendering and static
-                site generation
-              </p>
-              <div className='meta d-flex align-items-center'>
-                <div className='d-flex align-items-center'>
-                  <i className='fa-regular fa-calendar' />
-                  <span>11 June 2023</span>
-                </div>
-                <div className='d-flex align-items-center'>
-                  <i className='fa-regular fa-user' />
-                  <span>John Niyontwali</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </div>
-        {/* POST ITEM ENDS */}
-        {/* POST ITEM STARTS */}
-        <div className='animated-layer fade-in-right-animation fadeInUp wow'>
-          <Link href='/blog-post'>
-            <span className='img-holder'>
-              <img src='assets/blog/blog-post-1.png' alt='' />
-            </span>
-            <div className='content'>
-              <span className='category'>Web Dev</span>
-              <span className='title'>Getting started with Next.Js</span>
-              <p>
-                Nextjs is a React fronted development web framework which
-                enables functionality such as server-side rendering and static
-                site generation
-              </p>
-              <div className='meta d-flex align-items-center'>
-                <div className='d-flex align-items-center'>
-                  <i className='fa-regular fa-calendar' />
-                  <span>11 June 2023</span>
-                </div>
-                <div className='d-flex align-items-center'>
-                  <i className='fa-regular fa-user' />
-                  <span>John Niyontwali</span>
+        {blogs.map(post => (
+          <div
+            key={post.id}
+            className='animated-layer fade-in-right-animation fadeInUp wow'
+          >
+            <Link href={post.link} target='_blank'>
+              <span className='img-holder'>
+                <img src={post.image} alt={post.alt} />
+              </span>
+              <div className='content'>
+                <span className='category'>{post.category}</span>
+                <span className='title'>{post.title}</span>
+                <p>{post.summary}</p>
+                <div className='meta d-flex align-items-center'>
+                  <div className='d-flex align-items-center'>
+                    <i className='fa-regular fa-calendar' />
+                    <span>{post.date}</span>
+                  </div>
+                  <div className='d-flex align-items-center'>
+                    <i className='fa-regular fa-user' />
+                    <span>{post.author}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
-        </div>
-        {/* POST ITEM ENDS */}
+            </Link>
+          </div>
+        ))}
       </div>
-      {/* LATEST POSTS ENDS */}
     </section>
   );
 };
+
 export default Blog;

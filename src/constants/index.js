@@ -164,3 +164,32 @@ const aboutData = {
     },
   ],
 };
+
+export const blogs = [
+  {
+    id: 1,
+    link: 'https://www.cyberark.com/resources/blog/the-rise-of-ai-agents-collaborative-intelligence',
+    image:
+      'https://www.cyberark.com/wp-content/uploads/2025/03/ai-agents-collaborative-intelligence1.jpg',
+    alt: 'The Rise of AI Agents—Collaborative Intelligence',
+    category: 'AI/ML',
+    title: 'The Rise of AI Agents, Collaborative Intelligence',
+    summary:
+      '2025 marks a shift as AI agents move from experiments to core enterprise tools, expanding human intelligence, automating workflows and reshaping cybersecurity and decision-making at scale.',
+    date: '12 March 2025',
+    author: 'Noga Shachar Schleyer',
+  },
+  {
+    id: 2,
+    link: 'https://towardsdatascience.com/agentic-ai-and-the-future-of-python-project-management-tooling/',
+    image:
+      'https://towardsdatascience.com/wp-content/uploads/2025/09/sandy-millar-5PCeHBkMCmk-unsplash-scaled-1.jpg',
+    alt: 'Agentic AI and Python Project Management',
+    category: 'AI/ML',
+    title: 'Agentic AI and the Future of Python Project Management Tooling',
+    summary:
+      'How agentic AI will transform Python tooling from basic primitives to autonomous agents handling environment management and workflows.',
+    date: '09 September 2025',
+    author: 'Towards Data Science',
+  },
+];
