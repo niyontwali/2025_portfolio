@@ -40,11 +40,11 @@ const Index = () => {
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
-          content='John Niyontwali - Senior Full-Stack Developer | React, Node.js, Python Expert'
+          content='John Niyontwali - Senior Full-Stack Developer | React, Node.js, Python'
         />
         <meta
           property='og:description'
-          content='Senior Full-Stack Developer with 8+ years experience building scalable applications across healthcare, fintech, and enterprise sectors. Expert in React, Node.js, Python, and cloud technologies.'
+          content='Senior Full-Stack Developer with 8+ years experience building scalable applications across healthcare, fintech, and enterprise sectors. Advanced in React, Node.js, Python, and cloud technologies.'
         />
         <meta property='og:url' content='https://nijohn.vercel.app/' />
         <meta property='og:site_name' content='John Niyontwali Portfolio' />
