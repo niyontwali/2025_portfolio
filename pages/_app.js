@@ -1,7 +1,9 @@
 import Preloader from '@/src/components/Preloader';
 import MyHead from '@/src/MyHead';
-import '@/styles/globals.css';
 import { Fragment } from 'react';
+
+import '@/styles/globals.css';
+import '../public/css/skins/yellow.css';
 
 const App = ({ Component, pageProps }) => {
   return (

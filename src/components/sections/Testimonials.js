@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Testimonials = () => {
   return (
     <section className='testimonials'>
@@ -7,9 +9,9 @@ const Testimonials = () => {
           <div>
             <p>
               <span className='quote'>
-                " I worked with John, he was very helpful and fast to respond to
+                "I worked with John, he was very helpful and fast to respond to
                 my inquiry to help with frontend development issues and all
-                related technical problems. "
+                related technical problems."
               </span>
               <span className='person'>JC Mugisha</span>
               <span className='job'>Bizcotap - Backend Dev</span>
@@ -34,10 +36,12 @@ const Testimonials = () => {
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
       </div>
-      <img
+      <Image
         alt=''
         className='z-1 hide-mobile opposite-separator'
-        src='assets/separator-opposite.png'
+        src='/assets/separator-opposite.png'
+        width="100"
+        height="100"
       />
     </section>
   );

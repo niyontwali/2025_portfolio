@@ -57,16 +57,16 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href='https://twitter.com/JohnNiyontwali' target='_blank'>
-                  <i className='fa-brands fa-twitter' />
-                </a>
-              </li>
-              <li>
                 <a
                   href='https://www.linkedin.com/in/john-niyontwali-816549111/'
                   target='_blank'
                 >
                   <i className='fa-brands fa-linkedin' />
+                </a>
+              </li>
+              <li>
+                <a href='https://twitter.com/JohnNiyontwali' target='_blank'>
+                  <i className='fa-brands fa-twitter' />
                 </a>
               </li>
               <li>

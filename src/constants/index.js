@@ -36,9 +36,9 @@ const aboutData = {
         url: 'https://github.com/niyontwali',
         username: 'niyontwali',
       },
-      gitlab: {
-        url: 'https://gitlab.com/nijohn',
-        username: 'nijohn',
+      linkedin: {
+        url: 'https://www.linkedin.com/in/john-niyontwali-816549111/',
+        username: 'linkedin',
       },
     },
     image: 'assets/about.jpg',
@@ -50,26 +50,24 @@ const aboutData = {
     { icon: 'devicon-python-plain', name: 'Python' },
     { icon: 'devicon-csharp-plain', name: 'C#' },
     { icon: 'devicon-php-plain', name: 'PHP' },
-    { icon: 'devicon-dart-plain', name: 'Dart' },
     { icon: 'devicon-html5-plain', name: 'HTML5' },
     { icon: 'devicon-css3-plain', name: 'CSS3' },
 
     // Frontend Frameworks & Libraries
     { icon: 'devicon-react-plain', name: 'React.js' },
     { icon: 'devicon-nextjs-plain', name: 'Next.js' },
-    { icon: 'devicon-angular-plain', name: 'Angular' },
+    { icon: 'devicon-javascript-plain', name: 'Angular' },
     { icon: 'devicon-svelte-plain', name: 'Svelte' },
     { icon: 'devicon-flutter-plain', name: 'Flutter' },
     { icon: 'devicon-redux-plain', name: 'Redux' },
-    { icon: 'devicon-jquery-plain', name: 'jQuery' },
 
     // Backend Frameworks
     { icon: 'devicon-nodejs-plain', name: 'Node.js' },
     { icon: 'devicon-express-original', name: 'Express.js' },
     { icon: 'devicon-nestjs-plain', name: 'Nest.js' },
     { icon: 'devicon-flask-plain', name: 'Flask' },
-    { icon: 'devicon-django-plain', name: 'Django' },
-    { icon: 'devicon-fastapi-plain', name: 'FastAPI' },
+    { icon: 'devicon-python-plain', name: 'Django' },
+    { icon: 'devicon-python-plain', name: 'FastAPI' },
     { icon: 'devicon-dotnetcore-plain', name: '.NET Core' },
     { icon: 'devicon-laravel-plain', name: 'Laravel' },
 
@@ -85,7 +83,6 @@ const aboutData = {
     { icon: 'devicon-mysql-plain', name: 'MySQL' },
     { icon: 'devicon-redis-plain', name: 'Redis' },
     { icon: 'devicon-firebase-plain', name: 'Firebase' },
-    { icon: 'devicon-sqlite-plain', name: 'SQLite' },
 
     // Cloud Platforms
     { icon: 'devicon-amazonwebservices-plain', name: 'AWS' },
@@ -97,18 +94,16 @@ const aboutData = {
     { icon: 'devicon-docker-plain', name: 'Docker' },
     { icon: 'devicon-kubernetes-plain', name: 'Kubernetes' },
     { icon: 'devicon-git-plain', name: 'Git' },
-    { icon: 'devicon-jenkins-plain', name: 'Jenkins' },
     { icon: 'devicon-github-plain', name: 'GitHub Actions' },
     { icon: 'devicon-gitlab-plain', name: 'GitLab CI' },
     { icon: 'devicon-linux-plain', name: 'Linux' },
     { icon: 'devicon-nginx-plain', name: 'Nginx' },
-    { icon: 'devicon-terraform-plain', name: 'Terraform' },
+    { icon: 'devicon-redis-plain', name: 'Terraform' },
 
     // Package Managers & Build Tools
     { icon: 'devicon-npm-original-wordmark', name: 'npm' },
     { icon: 'devicon-yarn-plain', name: 'Yarn' },
     { icon: 'devicon-webpack-plain', name: 'Webpack' },
-    { icon: 'devicon-vitejs-plain', name: 'Vite' },
 
     // API & Backend Technologies
     { icon: 'devicon-graphql-plain', name: 'GraphQL' },
@@ -116,17 +111,13 @@ const aboutData = {
 
     // Testing & Quality Assurance
     { icon: 'devicon-jest-plain', name: 'Jest' },
-    { icon: 'devicon-cypress-plain', name: 'Cypress' },
+    { icon: 'devicon-jasmine-plain', name: 'Cypress' },
 
     // Content Management
     { icon: 'devicon-wordpress-plain', name: 'WordPress' },
 
-    // Mobile Development
-    { icon: 'devicon-ionic-plain', name: 'Ionic' },
-
     // Additional Technologies
-    { icon: 'devicon-elasticsearch-plain', name: 'Elasticsearch' },
-    { icon: 'devicon-rabbitmq-plain', name: 'RabbitMQ' },
+    { icon: 'devicon-redis-plain', name: 'RabbitMQ' },
   ],
   experience: [
     {

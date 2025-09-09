@@ -8,33 +8,32 @@ const Copyright = () => {
       />
       <div>
         <span>All rights reserved © {new Date().getFullYear()} </span>
-        <span>
-          <a
-            target='_blank'
-            href='https://link.bizcotap.com/profile/5689001546315d3c5869e9'
-          >
-            John Niyontwali
-          </a>
-        </span>
+        <span>John Niyontwali</span>
         <ul>
           <li>
-            <a href='#'>
+            <a href='https://github.com/niyontwali' target='_blank'>
               <i className='fa-brands fa-github' />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a
+              href='https://www.linkedin.com/in/john-niyontwali-816549111/'
+              target='_blank'
+            >
+              <i className='fa-brands fa-linkedin' />
+            </a>
+          </li>
+          <li>
+            <a href='https://x.com/JohnNiyontwali' target='_blank'>
               <i className='fa-brands fa-twitter' />
             </a>
           </li>
           <li>
-            <a href='#'>
-              <i className='fa-brands fa-dribbble' />
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              <i className='fa-brands fa-facebook' />
+            <a
+              href='https://www.youtube.com/@TechQuest-eAcademy'
+              target='_blank'
+            >
+              <i className='fa-brands fa-youtube' />
             </a>
           </li>
         </ul>

@@ -2,7 +2,6 @@ import { aboutData } from '@/src/constants';
 
 const About = () => {
   const { personalInfo, skills, experience } = aboutData;
-  const currentAge = new Date().getFullYear() - personalInfo.birthYear;
 
   // Helper function to render skills in pairs
   const renderSkillsPairs = () => {
@@ -67,14 +66,6 @@ const About = () => {
               <li>
                 <span>
                   <span className='animated-layer fade-in-up-animation fadeInUp wow'>
-                    <span>Age :</span>
-                    <span>{currentAge}</span>
-                  </span>
-                </span>
-              </li>
-              <li>
-                <span>
-                  <span className='animated-layer fade-in-up-animation fadeInUp wow'>
                     <span>Nationality :</span>
                     <span>{personalInfo.nationality}</span>
                   </span>
@@ -101,14 +92,6 @@ const About = () => {
               <li>
                 <span>
                   <span className='animated-layer fade-in-up-animation fadeInUp wow'>
-                    <span>Address :</span>
-                    <span>{personalInfo.address}</span>
-                  </span>
-                </span>
-              </li>
-              <li>
-                <span>
-                  <span className='animated-layer fade-in-up-animation fadeInUp wow'>
                     <span>Phone :</span>
                     <span>{personalInfo.phone}</span>
                   </span>
@@ -125,7 +108,7 @@ const About = () => {
               <li>
                 <span>
                   <span className='animated-layer fade-in-up-animation fadeInUp wow'>
-                    <span>github and gitlab usernames:</span>
+                    <span>github and linkedin:</span>
                     <a
                       href={personalInfo.social.github.url}
                       target='_blank'
@@ -135,11 +118,11 @@ const About = () => {
                     </a>{' '}
                     and{' '}
                     <a
-                      href={personalInfo.social.gitlab.url}
+                      href={personalInfo.social.linkedin.url}
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      {personalInfo.social.gitlab.username}
+                      {personalInfo.social.linkedin.username}
                     </a>
                   </span>
                 </span>
@@ -172,7 +155,7 @@ const About = () => {
           <h3>
             <span>
               <span className='animated-layer fade-in-left-animation'>
-                My Resume
+                Experiences
               </span>
             </span>
           </h3>
