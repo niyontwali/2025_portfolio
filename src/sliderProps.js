@@ -7,17 +7,24 @@ import {
   Mousewheel,
   Navigation,
   Pagination,
-  Virtual
+  Virtual,
 } from 'swiper/modules';
 
 // Export slider configurations with modules included
 export const mySlider = {
   portfolio: {
-    modules: [Navigation, Mousewheel, EffectFade, Grid, EffectCreative, Virtual],
+    modules: [
+      Navigation,
+      Mousewheel,
+      EffectFade,
+      Grid,
+      EffectCreative,
+      Virtual,
+    ],
     loop: true,
     navigation: {
-      nextEl: ".next-item",
-      prevEl: ".prev-item",
+      nextEl: '.next-item',
+      prevEl: '.prev-item',
     },
     breakpoints: {
       320: {
@@ -26,11 +33,11 @@ export const mySlider = {
         navigation: false,
       },
       768: {
-        slidesPerView: "auto",
+        slidesPerView: 'auto',
         spaceBetween: 0,
       },
       1025: {
-        direction: "vertical",
+        direction: 'vertical',
       },
     },
   },
@@ -52,9 +59,9 @@ export const mySlider = {
     spaceBetween: 50,
     grabCursor: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
-      type: "bullets",
+      type: 'bullets',
     },
   },
   portfolioItems: {
@@ -62,9 +69,9 @@ export const mySlider = {
     slidesPerView: 1,
     loop: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
-      type: "bullets",
+      type: 'bullets',
     },
   },
 };

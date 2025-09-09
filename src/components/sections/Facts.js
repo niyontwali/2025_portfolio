@@ -1,10 +1,10 @@
 const Facts = () => {
   return (
-    <section className="facts">
-      <div className="flex-column-mobile">
+    <section className='facts'>
+      <div className='flex-column-mobile'>
         {/* SINGE FACT ITEM STARTS */}
         <div
-          className="animated-layer fade-in-right-animation fadeInLeft wow"
+          className='animated-layer fade-in-right-animation fadeInLeft wow'
           data-wow-offset={200}
         >
           <div>
@@ -19,7 +19,7 @@ const Facts = () => {
         {/* SINGE FACT ITEM ENDS */}
         {/* SINGE FACT ITEM STARTS */}
         <div
-          className="animated-layer fade-in-right-animation fadeInRight wow"
+          className='animated-layer fade-in-right-animation fadeInRight wow'
           data-wow-offset={200}
         >
           <div>
@@ -34,7 +34,7 @@ const Facts = () => {
         {/* SINGE FACT ITEM ENDS */}
         {/* SINGE FACT ITEM STARTS */}
         <div
-          className="animated-layer fade-in-right-animation fadeInLeft wow"
+          className='animated-layer fade-in-right-animation fadeInLeft wow'
           data-wow-offset={200}
         >
           <div>
@@ -49,7 +49,7 @@ const Facts = () => {
         {/* SINGE FACT ITEM ENDS */}
         {/* SINGE FACT ITEM STARTS */}
         <div
-          className="animated-layer fade-in-right-animation fadeInRight wow"
+          className='animated-layer fade-in-right-animation fadeInRight wow'
           data-wow-offset={200}
         >
           <div>
@@ -64,7 +64,7 @@ const Facts = () => {
         {/* SINGE FACT ITEM ENDS */}
         {/* SINGE FACT ITEM STARTS */}
         <div
-          className="animated-layer fade-in-right-animation fadeInLeft wow"
+          className='animated-layer fade-in-right-animation fadeInLeft wow'
           data-wow-offset={200}
         >
           <div>
@@ -79,9 +79,9 @@ const Facts = () => {
         {/* SINGE FACT ITEM ENDS */}
       </div>
       <img
-        alt=""
-        className="z-1 hide-mobile opposite-separator"
-        src="assets/separator-opposite.png"
+        alt=''
+        className='z-1 hide-mobile opposite-separator'
+        src='assets/separator-opposite.png'
       />
     </section>
   );

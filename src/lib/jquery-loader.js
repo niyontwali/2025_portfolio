@@ -12,7 +12,7 @@ export const initializeJQuery = async () => {
 
       // Load jQuery first
       const { default: $ } = await import('jquery');
-      
+
       // Make jQuery globally available
       window.jQuery = window.$ = $;
 
@@ -21,7 +21,7 @@ export const initializeJQuery = async () => {
 
       // Load and initialize custom scrollbar
       const mCustomScrollbar = await import('malihu-custom-scrollbar-plugin');
-      
+
       // Initialize the plugin properly for Turbopack
       if (typeof mCustomScrollbar.default === 'function') {
         mCustomScrollbar.default($);

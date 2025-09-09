@@ -1,6 +1,6 @@
 const ScrollBar = () => {
   return (
-    <div className="scroll-progress hide-mobile">
+    <div className='scroll-progress hide-mobile'>
       <div>
         <div />
       </div>

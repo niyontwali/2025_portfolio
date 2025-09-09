@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier \"**/*.{js,ts}\" --write"
   },
   "dependencies": {
     "babel-loader": "^9.2.1",
