@@ -57,7 +57,6 @@ const aboutData = {
     { icon: 'devicon-react-plain', name: 'React.js' },
     { icon: 'devicon-nextjs-plain', name: 'Next.js' },
     { icon: 'devicon-javascript-plain', name: 'Angular' },
-    { icon: 'devicon-svelte-plain', name: 'Svelte' },
     { icon: 'devicon-flutter-plain', name: 'Flutter' },
     { icon: 'devicon-redux-plain', name: 'Redux' },
 
@@ -103,11 +102,9 @@ const aboutData = {
     // Package Managers & Build Tools
     { icon: 'devicon-npm-original-wordmark', name: 'npm' },
     { icon: 'devicon-yarn-plain', name: 'Yarn' },
-    { icon: 'devicon-webpack-plain', name: 'Webpack' },
 
     // API & Backend Technologies
     { icon: 'devicon-graphql-plain', name: 'GraphQL' },
-    { icon: 'devicon-socketio-plain', name: 'Socket.IO' },
 
     // Testing & Quality Assurance
     { icon: 'devicon-jest-plain', name: 'Jest' },
